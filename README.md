@@ -7,8 +7,8 @@ Welcome to TuneFinder! 🎵 This is my personal project that taps into the iTune
 To dive into the world of music with TuneFinder, follow these steps:
 
 ```bash
-git clone <your-repo-link>
-cd <your-repo-name>
+git clone https://github.com/paolacernada/TuneFinder.git
+cd TuneFinder
 npm install
 npm start
 ```
