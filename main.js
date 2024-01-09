@@ -29,11 +29,11 @@ function displayResults(data) {
 
 function createSongItem(song) {
   return `
-    <div class="song-item" onclick="playSong('${song.previewUrl}')">
-      <img src="${song.artworkUrl100}" alt="${song.collectionName}" class="album-art">
-      <div class="song-title">${song.trackName}</div>
-      <div class="band-name">${song.artistName}</div>
-    </div>
+  <div class="song-item cursor-pointer p-4 bg-white rounded shadow-lg hover:shadow-xl transition-shadow" onclick="playSong('${song.previewUrl}')">
+  <img src="${song.artworkUrl100}" alt="${song.collectionName}" class="album-art w-full h-64 object-cover rounded">
+  <div class="song-title text-lg font-semibold mt-3">${song.trackName}</div>
+  <div class="band-name text-gray-600">${song.artistName}</div>
+</div>
   `;
 }
 
